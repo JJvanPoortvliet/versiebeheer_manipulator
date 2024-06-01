@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="button_listener" pkg="hmi" type="logicatest"
+    output="screen">
+  </node>
+
+</launch>
