@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/install/setup.sh

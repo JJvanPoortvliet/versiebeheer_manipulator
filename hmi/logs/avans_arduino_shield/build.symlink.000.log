@@ -1,0 +1,3 @@
+Symlinking /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/lib/pkgconfig/avans_arduino_shield.pc
+Symlinking /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig-version.cmake
+Symlinking /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig.cmake

@@ -1,0 +1,6 @@
+devel_space: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel
+install: false
+install_space: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/install
+profile: default
+source_space: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/src
+workspace: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi

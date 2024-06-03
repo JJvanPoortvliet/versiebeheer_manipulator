@@ -1,0 +1,1 @@
+/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig.cmake

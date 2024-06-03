@@ -1,0 +1,526 @@
+Script started on 2024-06-01 12:19:25-0700
+1) With fysical Niryo Ned Robot(Hotspot mode)
+2) With fysical Niryo Ned Robot(Wifi mode)
+3) With fysical Niryo Ned Robot(Ethernet mode)
+4) Without fysical Niryo Ned Robot (simulation Mode)
+5) None
+Please enter your operating mode: ^[^[[3~       5
+you chose None
+1) With fysical Niryo Ned Robot(Hotspot mode)
+2) With fysical Niryo Ned Robot(Wifi mode)
+3) With fysical Niryo Ned Robot(Ethernet mode)
+4) Without fysical Niryo Ned Robot (simulation Mode)
+5) None
+Please enter your operating mode: 5
+you chose None
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/src[00m$ cd scripts/ [A
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/src/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/src/scripts[00m$ ls
+[0m[01;32mhmi_logica.py[0m  [01;34mknop_lamp_test[0m  [01;32mlogicatest.py[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/src/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/src/scripts[00m$ cd  cd [K[K[K..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/src[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ mc cd[K[K[K[Kv src hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ c[Kls
+[0m[01;34mbuild[0m           [01;34mdevel[0m   [01;34mlogs[0m         [01;34mscripts[0m  typescript
+CMakeLists.txt  [01;34mlaunch[0m  package.xml  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv hmi versiebeheer_manipulator/
+mv: cannot stat 'hmi': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ vd[K[Kmc[Kv hmi/ versiebeheer_manipulator/
+mv: cannot stat 'hmi/': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd [K[K[Km[Kcd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ m[Kcd ..
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ mv hmi/ c[Ksrc/
+mv: cannot stat 'hmi/': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd hmi src/[K
+bash: cd: too many arguments
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ c[Kmv hmi src
+mv: cannot stat 'hmi': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd [K[K[Kmv hmi src/
+mv: cannot stat 'hmi': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd ve[K[Ksrc
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv [K[K[Kls
+[0m[01;36mCMakeLists.txt[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv arduino_test src/
+mv: cannot stat 'arduino_test': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mc [K[Kv [K[K[Kv[Kmv hmi src
+mv: cannot stat 'hmi': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ mv hmi scr[K[Krc
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi2[0m  README.md  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ mv src hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd .,[K.
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rospac[K[Kck [K[K[Kack find hmi
+[rospack] Error: package 'hmi' not found
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ h[Kfind hmi
+find: ‘hmi’: No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ ls
+[0m[01;34mbuild[0m  [01;34mdevel[0m  [01;34minstall[0m  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ src
+
+Command 'src' not found, but there are 24 similar ones.
+
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd src
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ hm[K[Kcstki[K[K[K[Katkin_make [K[K[K[Kc[K[Kcreate [K_okg [K[K[K[Kpkg hmi so[K[Krosp[K[K[K[Kstd_msgs rospy 
+Created file hmi/CMakeLists.txt
+Created file hmi/package.xml
+Created folder hmi/src
+Successfully created files in /home/student/rosmanipulator_ws/src/hmi. Please adjust the values in package.xml.
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ catkin_make
+Base path: /home/student/rosmanipulator_ws/src
+[31mThe specified source space [1m"/home/student/rosmanipulator_ws/src/src"[22m does not exist[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd ...
+bash: cd: ...: No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ca[K[Kcd ..
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ catkin_make
+Base path: /home/student/rosmanipulator_ws
+Source space: /home/student/rosmanipulator_ws/src
+Build space: /home/student/rosmanipulator_ws/build
+Devel space: /home/student/rosmanipulator_ws/devel
+Install space: /home/student/rosmanipulator_ws/install
+Multiple packages found with the same name "hmi":
+- hmi
+- versiebeheer_manipulator/hmi
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ source devel/setup.bash
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd src/
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ ls
+CMakeLists.txt  package.xml  [0m[01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ mv hmi hmil[K[K/[Ki/
+mv: cannot move 'hmi' to a subdirectory of itself, 'hmi/hmi'
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv hmi [K[K[K[Kverb[Ksiebeheer_manipulator/hmi/ hmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd hmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ ls
+CMakeLists.txt  [0m[01;34mhmi[0m  package.xml  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/hmi[00m$ ls
+[0m[01;34mbuild[0m           [01;34mdevel[0m   [01;34mlogs[0m         [01;34mscripts[0m  typescript
+CMakeLists.txt  [01;34mlaunch[0m  package.xml  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/hmi[00m$ cd..
+cd..: command not found
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$  cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd hmi/hmi/ src/
+bash: cd: too many arguments
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd[K[Kmv hmi/hmi [K/ src/
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd[K[Kls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34msrc[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd hmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ ls
+CMakeLists.txt  package.xml  [0m[01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd src/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/src[00m$ ls
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/src[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34msrc[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd src/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/src[00m$ lls[K[Ks
+[0m[01;34mbuild[0m           [01;34mdevel[0m   [01;34mlogs[0m         [01;34mscripts[0m  typescript
+CMakeLists.txt  [01;34mlaunch[0m  package.xml  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/src[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv src/ m[Khmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ c[Kls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd hmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ ls
+CMakeLists.txt  package.xml  [0m[01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd src/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/src[00m$ ls
+[0m[01;34mbuild[0m           [01;34mdevel[0m   [01;34mlogs[0m         [01;34mscripts[0m  typescript
+CMakeLists.txt  [01;34mlaunch[0m  package.xml  [01;34msrc[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/src[00m$ cds [K[K ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd ..[3Plscd src/ls[Kcd hmi/ls[Kmv src/ hmi/[7Pcd ..[3Plscd src/ls[Kcd ..[3Plscd src/ls[Kcd hmi/ls[Kmv hmi/hmi/ src/cd[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+mv: cannot stat 'hmi/hmi/': No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv hmi/hmi/ src/[C[1@s[1@r[1@c[2@^[[3@[3~[1P[1P[1P[2P[1P[1P[1P
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34msrc[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ rm hmi
+rm: cannot remove 'hmi': Is a directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34msrc[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ rm hmi
+rm: cannot remove 'hmi': Is a directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ rmdir hmi
+rmdir: failed to remove 'hmi': Directory not empty
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34msrc[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv hm[K[K[Ksr[K[K src hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ ls
+[0m[01;36mCMakeLists.txt[0m  [01;34mhmi[0m  [01;34mversiebeheer_manipulator[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ hmi [K[K[K[Kcd ..
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rospack find hi[Kmi
+/home/student/rosmanipulator_ws/src/hmi
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi hmi_logica.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/hmi_logica.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ [K]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi hmi_logica.py [K[K[K[K[K[K[K[K[K[K[K[K[K[Klogicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi logicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi logicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi logicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ rosrun hmi logicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws[00m$ cd r[Ksrc/hmi/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ l[Kcd scripts/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ ls -la
+total 16
+drwxrwxr-x 4 student student 4096 Jun  1 12:33 [0m[01;34m.[0m
+drwxrwxr-x 9 student student 4096 Jun  1 12:19 [01;34m..[0m
+drwxrwxr-x 2 student student 4096 Jun  1 12:37 [01;34marduino_test[0m
+-rwxrwxrwx 1 student student    0 Jun  1 07:31 [01;32mhmi_logica.py[0m
+drwxrwxr-x 2 student student 4096 Jun  1 09:03 [01;34mknop_lamp_test[0m
+-rwxrwxrwx 1 student student    0 Jun  1 08:59 [01;32mlogicatest.py[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ chmd[Kod 8[K777 arduino_test/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ cdh[K[Khmod 777 hmi_logica.py 
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ cdhmo[K[K[K[Khmod 7777 [K[K a[Kknop_lamp_test/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ chmod 7777 l[K[K[K logicatest.py 
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ ls -la
+total 16
+drwxrwxr-x 4 student student 4096 Jun  1 12:33 [0m[01;34m.[0m
+drwxrwxr-x 9 student student 4096 Jun  1 12:19 [01;34m..[0m
+drwxrwxrwx 2 student student 4096 Jun  1 12:37 [34;42marduino_test[0m
+-rwxrwxrwx 1 student student    0 Jun  1 07:31 [01;32mhmi_logica.py[0m
+drwxrwxrwx 2 student student 4096 Jun  1 09:03 [34;42mknop_lamp_test[0m
+-rwxrwxrwx 1 student student    0 Jun  1 08:59 [01;32mlogicatest.py[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ ls -lachmod 777 logicatest.py knop_lamp_test/[1Phmi_logica.py [1Parduino_test/ls -la[Kcd scripts/rc/hmi/rosrun hmi logicatest.py hmi_logica[C[C[C[C[9Ppack find hmirun hmi hmi_logica.py logicatest[C[C[C[C
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ rosrun hmi logicatest.py ls -la[Krosrun hmi logicatest.py [Krosrun hmi l[Khmi_logica.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/hmi_logica.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ h[Krosrun hmi m[Kloge[Kicatest.py 
+/opt/ros/melodic/bin/rosrun: line 116: /home/student/rosmanipulator_ws/src/hmi/scripts/logicatest.py: Success
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ 
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ c[Kcd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd launch/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/launch[00m$ touch logei[K[Kicatest.[K.[K_launch.launxh[K[Kch
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/launch[00m$ roslauc[K[K[K[K[K[K[Kchmod logicatest_launch.launch [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K777 logicatest_launch.launch 
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/launch[00m$ roslaunch logicatest_launch.launch [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khmi logicatest_launch.launch 
+... logging to /home/student/.ros/log/85e11cb2-204f-11ef-bf36-000c290f346e/roslaunch-ubuntu-4082.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch
+[1mstarted roslaunch server http://ubuntu:46823/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+
+NODES
+  /
+    button_listener (hmi/logicatest)
+
+auto-starting new master
+[1mprocess[master]: started with pid [4096][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch http://localhost:11311
+[1msetting /run_id to 85e11cb2-204f-11ef-bf36-000c290f346e[0m
+[1mprocess[rosout-1]: started with pid [4107][0m
+started core service [/rosout]
+[31mERROR: cannot launch node of type [hmi/logicatest]: Cannot locate node of type [logicatest] in package [hmi]. Make sure file exists in package path and permission is set to executable (chmod +x)[0m
+c^X^C[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/launch[00m$ roslaunch hmi logicatest_launch.launch 
+... logging to /home/student/.ros/log/9e693e22-204f-11ef-bf36-000c290f346e/roslaunch-ubuntu-4129.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch
+[1mstarted roslaunch server http://ubuntu:33959/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+
+NODES
+  /
+    button_listener (hmi/logicatest)
+
+auto-starting new master
+[1mprocess[master]: started with pid [4143][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch http://localhost:11311
+[1msetting /run_id to 9e693e22-204f-11ef-bf36-000c290f346e[0m
+[1mprocess[rosout-1]: started with pid [4154][0m
+started core service [/rosout]
+[31mERROR: cannot launch node of type [hmi/logicatest]: Cannot locate node of type [logicatest] in package [hmi]. Make sure file exists in package path and permission is set to executable (chmod +x)[0m
+^C[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/launch[00m$ cd ../scripts/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ ls
+[0m[34;42marduino_test[0m  [01;32mhmi_logica.py[0m  [34;42mknop_lamp_test[0m  [01;32mlogicatest.py[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi/scripts[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/hmi[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd ..[3Plscd ../scripts/roslaunch hmi logicatest_launch.launch [4Pchmod 777[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@roslaunch hmi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+... logging to /home/student/.ros/log/aadd1d90-204f-11ef-bf36-000c290f346e/roslaunch-ubuntu-4173.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch
+[1mstarted roslaunch server http://ubuntu:44469/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+
+NODES
+  /
+    button_listener (hmi/logicatest)
+
+auto-starting new master
+[1mprocess[master]: started with pid [4187][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/student/rosmanipulator_ws/src/hmi/launch/logicatest_launch.launch http://localhost:11311
+[1msetting /run_id to aadd1d90-204f-11ef-bf36-000c290f346e[0m
+[1mprocess[rosout-1]: started with pid [4198][0m
+started core service [/rosout]
+[31mERROR: cannot launch node of type [hmi/logicatest]: Cannot locate node of type [logicatest] in package [hmi]. Make sure file exists in package path and permission is set to executable (chmod +x)[0m
+^C[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ git brac[Knch
+fatal: not a git repository (or any of the parent directories): .git
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ git branch[K[K[K[K[K[K[K[K[K[KGit branch
+
+Command 'Git' not found, did you mean:
+
+  command 'wit' from deb wit
+  command 'git' from deb git
+  command 'nit' from deb python-nevow
+  command 'vit' from deb vit
+
+Try: sudo apt install <deb name>
+
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ git b[Kce[Kheckout
+fatal: not a git repository (or any of the parent directories): .git
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ git chek[K[Keckout hmi
+fatal: not a git repository (or any of the parent directories): .git
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ git [K[K[K[Kcd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git c[Kbranch
+[?1h=* [32mHMI[m[m
+  main[m[m
+[K[?1l>]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git add .
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ gti[K[Kit commit - m[K[Km logicatest,[K.py
+[HMI 5c87e42] logicatest.py
+ 5 files changed, 327 insertions(+)
+ create mode 100644 arduino.py
+ rename hmi/scripts/knop_lamp_test/knop_lamp_test.ino => arduino_knop_lamp/arduino_knop_lamp.ino (100%)
+ create mode 100644 arduino_test/arduino_test.ino
+ create mode 100644 hmi2/CMakeLists.txt
+ create mode 100644 hmi2/package.xml
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git commit -m arduino[K[K[K[K[K[K[K[K logicatest_launch.launch
+On branch HMI
+Your branch is ahead of 'origin/HMI' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git push
+Username for 'https://github.com': bouwevw
+Password for 'https://bouwevw@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 2 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 4.13 KiB | 422.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/JJvanPoortvliet/versiebeheer_manipulator.git
+   e4a25b0..5c87e42  HMI -> HMI
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd /.[K[K..
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ mv hmi versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src[00m$ cd versiebeheer_manipulator/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git commit 0[K-m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git commit -m logicatest_lanc[K[Kunch.;a[K[Klaunch
+On branch HMI
+Your branch is up to date with 'origin/HMI'.
+
+Untracked files:
+	[31mhmi/[m
+
+nothing added to commit but untracked files present
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ git push
+Username for 'https://github.com': bouwevw
+Password for 'https://bouwevw@github.com': 
+Everything up-to-date
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ ls
+[0m[01;34marduino_knop_lamp[0m  arduino.py  [01;34marduino_test[0m  [01;34mhmi[0m  [01;34mhmi2[0m  README.md
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator[00m$ cd hmi
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ ls
+[0m[01;34mbuild[0m  CMakeLists.txt  [01;34mdevel[0m  [01;34mlaunch[0m  [01;34mlogs[0m  package.xml  [01;34mscripts[0m  [01;34msrc[0m  typescript
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ cd scripts
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[00m$ ls
+[0m[34;42marduino_test[0m  [01;32mhmi_logica.py[0m  [34;42mknop_lamp_test[0m  [01;32mlogicatest.py[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[00m$ cd[K[Kc[Kgit commit[K[K[K[K[K[Kadd .\[K
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[00m$ git commit -m logicatest.py hmi_logica.py arduino_test/ knop_lamp_test/ lo[Kogicatest_l[K[K[K[K[K[K[K[K[K[K[K[K
+[HMI 237acd9] logicatest.py
+ 3 files changed, 120 insertions(+)
+ create mode 100644 hmi/scripts/arduino_test/arduino_test.ino
+ create mode 100755 hmi/scripts/hmi_logica.py
+ create mode 100644 hmi/scripts/knop_lamp_test/knop_lamp_test.ino
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/scripts[00m$ cd ..
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ git coom[K[Kmmit -m logs/[K[Kicatest_l[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd l
+bash: cd: l: No such file or directory
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi[00m$ cd launch/
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[00m$ ls
+arduino_launch.launch  [0m[01;32mlogicatest_launch.launch[0m
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[00m$ git oc[K[Kcommit -m l[Kg[Klogicatest_launch.launch 
+[HMI bc16ec8] logicatest_launch.launch
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100755 hmi/scripts/logicatest.py
+]0;student@ubuntu: ~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[01;32mstudent@ubuntu[00m:[01;34m~/rosmanipulator_ws/src/versiebeheer_manipulator/hmi/launch[00m$ git push
+Username for 'https://github.com': bouwevw
+Password for 'https://bouwevw@github.com': 
+Counting objects: 12, done.
+Delta compression using up to 2 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:   8% (1/12)   Writing objects:  

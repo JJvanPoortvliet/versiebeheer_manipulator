@@ -1,0 +1,8 @@
+prefix=/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield
+
+Name: avans_arduino_shield
+Description: Description of avans_arduino_shield
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

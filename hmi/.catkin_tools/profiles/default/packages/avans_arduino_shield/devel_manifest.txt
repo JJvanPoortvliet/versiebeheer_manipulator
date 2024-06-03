@@ -1,0 +1,5 @@
+AvansArduinoShieldByteOperations/arduino
+/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/cmake.lock /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/./cmake.lock
+/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/lib/pkgconfig/avans_arduino_shield.pc /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/lib/pkgconfig/avans_arduino_shield.pc
+/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig-version.cmake /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig-version.cmake
+/home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig.cmake /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/share/avans_arduino_shield/cmake/avans_arduino_shieldConfig.cmake

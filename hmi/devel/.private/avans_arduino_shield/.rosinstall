@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/student/rosmanipulator_ws/versiebeheer_manipulator/hmi/devel/.private/avans_arduino_shield/setup.sh

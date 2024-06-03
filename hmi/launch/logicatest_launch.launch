@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
 <launch>
-  <node name="button_listener" pkg="hmi" type="logicatest"
-    output="screen">
-  </node>
-
+    <node name="button_listener" pkg="hmi" type="logicatest.py" output="screen">
+        <param name="use_sim_time" value="false"/>
+    </node>
 </launch>
