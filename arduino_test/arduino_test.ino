@@ -16,11 +16,11 @@ std_msgs::UInt16 button_msg;
 ros::Publisher button_publisher("button_states", &button_msg);
 
 void ledCallback(const std_msgs::String &msg) {
-  if (msg.data == "RUN") {
+  if (msg == "RUN") {
     digitalWrite(LED1, HIGH);
     digitalWrite(LED2, HIGH);
     digitalWrite(LED3, HIGH);
-  } else if (msg.data == "STOP") {
+  } else if (msg == "STOP") {
     digitalWrite(LED1, LOW);
     digitalWrite(LED2, LOW);
     digitalWrite(LED3, LOW);

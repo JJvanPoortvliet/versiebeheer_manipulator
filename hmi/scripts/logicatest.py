@@ -11,14 +11,14 @@ def button_callback(msg):
     button3 = bool(msg.data & 0b0100)
     button4 = bool(msg.data & 0b1000)
 
-    while button4:
-        while button3:
-            while  button1:
-                while not button2:
+    if button4:
+        if  button3:
+            if  button1:
+                if not button2:
                     led_control_pub.publish("RUN")
                     rospy.loginfo("RUN2")
-                    rospy.sleep(0.1)
-                if not button1:
+                    rospy.sleep(0.1)   
+                elif not button1:
                     led_control_pub.publish("RUN")
                     rospy.loginfo("RUN1")
                     rospy.sleep(0.1)
@@ -30,11 +30,11 @@ def button_callback(msg):
             led_control_pub.publish("STOP")
             rospy.loginfo("STOP1")
             rospy.sleep(0.1)
-        else:
+        elif not button4:
             led_control_pub.publish("STOP")
             rospy.loginfo("STOP2")
             rospy.sleep(0.1)
-
+    rospy.loginfo("UIT DE LOOP")
 
 def main():
     global led_control_pub

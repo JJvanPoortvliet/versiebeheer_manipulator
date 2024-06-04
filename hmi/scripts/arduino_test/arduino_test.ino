@@ -1,13 +1,15 @@
+
 #include <ros.h>
 #include <std_msgs/String.h>
 #include <std_msgs/UInt16.h>
+
 
 #define BUTTON1 8
 #define BUTTON2 9
 #define BUTTON3 10
 #define BUTTON4 11
-#define LED1 12
-#define LED2 13
+#define LED1 4
+#define LED2 3
 #define LED3 2
 
 ros::NodeHandle node_handle;
@@ -15,22 +17,24 @@ ros::NodeHandle node_handle;
 std_msgs::UInt16 button_msg;
 ros::Publisher button_publisher("button_states", &button_msg);
 
-void ledCallback(const std_msgs::String &msg) {
-  if (msg.data == "RUN") {
-    digitalWrite(LED1, HIGH);
-    digitalWrite(LED2, HIGH);
-    digitalWrite(LED3, LOW);
-  } else if (msg.data == "STOP") {
+void ledCallback(const std_msgs::String &led_msg) {
+  String feedback;
+  feedback = led_msg.data;
+  if (feedback.equals("RUN")) {
     digitalWrite(LED1, LOW);
     digitalWrite(LED2, LOW);
     digitalWrite(LED3, HIGH);
-  }else if (msg.data == "NIKS"){
+  } else if (feedback.equals("STOP")) {
     digitalWrite(LED1, HIGH);
-    digitalWrite(LED2, LOW);
-    digitalWrite(LED3, LOW);    
+    digitalWrite(LED2, HIGH);
+    digitalWrite(LED3, LOW);
+  }else if (feedback.equals("NIKS")){
+    digitalWrite(LED1, LOW);
+    digitalWrite(LED2, HIGH);
+    digitalWrite(LED3, HIGH);    
   }
 }
-
+std_msgs::UInt16 led_msg;
 ros::Subscriber<std_msgs::String> led_subscriber("led_control", &ledCallback);
 
 void setup() {
