@@ -17,6 +17,8 @@ ros::NodeHandle node_handle;
 std_msgs::UInt16 button_msg;
 ros::Publisher button_publisher("button_states", &button_msg);
 
+uint8_t last_button = 0;
+
 void ledCallback(const std_msgs::String &led_msg) {
   String feedback;
   feedback = led_msg.data;
@@ -48,13 +50,26 @@ void setup() {
   node_handle.initNode();
   node_handle.advertise(button_publisher);
   node_handle.subscribe(led_subscriber);
+  
 }
 
 void loop() {
-  button_msg.data = (digitalRead(BUTTON1) << 0) |
-                    (digitalRead(BUTTON2) << 1) |
-                    (digitalRead(BUTTON3) << 2) |
-                    (digitalRead(BUTTON4) << 3);
+  uint8_t current_button = 0;
+  
+
+  if (digitalRead(BUTTON1) == LOW) {
+    current_button = 1;
+  } else if (digitalRead(BUTTON2) == LOW) {
+    current_button = 2;
+  } else if (digitalRead(BUTTON3) == LOW) {
+    current_button = 3;
+  } else if (digitalRead(BUTTON4) == LOW) {
+    current_button = 4;
+  }
+  if (current_button != 0 && current_button != last_button) {
+    last_button = current_button;
+  }
+  button_msg.data = last_button;
   button_publisher.publish(&button_msg);
   node_handle.spinOnce();
   delay(100);
