@@ -1,0 +1,63 @@
+{
+    "model": {
+        "xml": "Kwastenv1iyolov5pytorch.xml",
+        "bin": "Kwastenv1iyolov5pytorch.bin"
+    },
+    "nn_config": {
+        "output_format": "detection",
+        "NN_family": "YOLO",
+        "input_size": "416x416",
+        "NN_specific_metadata": {
+            "classes": 4,
+            "coordinates": 4,
+            "anchors": [
+                353.5,
+                19.421875,
+                91.8125,
+                79.375,
+                172.5,
+                70.375,
+                227.375,
+                55.6875,
+                123.75,
+                102.5,
+                317.75,
+                40.21875,
+                85.375,
+                154.75,
+                189.75,
+                94.6875,
+                285.25,
+                84.625
+            ],
+            "anchor_masks": {
+                "side52": [
+                    0,
+                    1,
+                    2
+                ],
+                "side26": [
+                    3,
+                    4,
+                    5
+                ],
+                "side13": [
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "iou_threshold": 0.5,
+            "confidence_threshold": 0.5
+        }
+    },
+    "mappings": {
+        "labels": [
+            "Grote kwast",
+            "Keuken kwast",
+            "Penseel kwast",
+            "Ronde kwast"
+        ]
+    },
+    "version": 1
+}
